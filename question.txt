@@ -1,0 +1,19 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML is the elements within that give meaning to the HTML.
+
+Name two big differences between display: block; and display: inline;.
+
+display:block makes an element take up the complete width of the webage while display:inline takes only the spoace it needs.
+
+What are the 4 areas of the box model?
+
+The four areas of the box model are: margin border, padding, content.
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+Align items functions on the cross axis, or horizontally.
+
+Explain why git is valuable to a team of developers.
+
+Git is valuable as it makes collaboration much easier through the use of branches and merging.

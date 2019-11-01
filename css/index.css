@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.25;
+    padding: 2%;
 }
 ol, ul {
 	list-style: none;
@@ -66,9 +67,31 @@ p {
     line-height: 1.4;
 }
 
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+.header{
+    width:800px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 
 .top-content {
@@ -104,12 +127,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.one {
+    background-color: teal;
+}
+
+.two{
+    background-color: gold;
+}
+
+.three {
+    background-color: cadetblue;
+}
+
+.four{
+    background-color: coral;
+}
+
+.five {
+    background-color: crimson;
+}
+
+.six {
+    background-color: forestgreen;
+}
+
+.seven {
+    background-color: darkorchid;
+}
+
+.eight {
+    background-color:hotpink;
+}
+
+.nine {
+    background-color: indigo;
+}
+
+.ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -135,7 +197,6 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +204,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+m@media only screen and (max-width: 600px){
+    .boxes{display: flex; justify-content: center; align-items: center;}
+    .top-content{display: flex; justify-content: center; align-items: center}
+    .bottom-content{display: flex; justify-content: center; align-items: center;}
+}
+
+/*About page specific*/
+
+.aboutHead{
+    border-bottom: black 1px dashed;
+    padding: 5px 0 15px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@keyframes button {
+    0% {background-color: white; color: black;}
+    50% {background-color: black; color: white;}
+    100% {background-color: white; color: black;}
+}
+
+.learn{
+    border-bottom: black 1px dashed;
+    padding: 20px 20px 20px 0;
+    margin: 10px 20px 30px 0;
+    width: 380px;
+}
+
+.more{
+    display: inline-block;
+    margin-top: 15px;
+    padding:5px 15px;
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.more:hover {
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+.bottom {
+    padding-bottom: 30px;
+}
+
+@media only screen and(max-width: 600px) {
+    .learn{display: flex; justify-content: center; align-items: center;}
 }
