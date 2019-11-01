@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.25;
+    padding: 2%;
 }
 ol, ul {
 	list-style: none;
@@ -66,9 +67,31 @@ p {
     line-height: 1.4;
 }
 
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+.header{
+    width:800px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 
 .top-content {
@@ -135,7 +158,6 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +165,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page specific*/
+
+.aboot{
+    border-bottom: black 1px dashed;
+    padding: 5px 0 15px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.learn{
+    border-bottom: black 1px dashed;
+    padding: 20px 20px 20px 0;
+    margin: 10px 20px 30px 0;
+    width: 380px;
+}
+
+.more{
+    display: inline-block;
+    margin-top: 15px;
+    padding:5px 15px;
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.bottom {
+    padding-bottom: 30px;
 }
